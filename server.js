@@ -21,8 +21,8 @@ app.use(cookieParser())
 app.use(cors({
     origin: [
         // 'http://localhost:5173',
-        'https://tailwind-mastery.github.io',
-        'https://tailwind-mastery.github.io/TEVAReact/'
+        'https://tailwind-mastery.github.io/*',
+        // 'https://tailwind-mastery.github.io/TEVAReact/'
     ],
 }))
 
