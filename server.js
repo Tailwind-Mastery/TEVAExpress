@@ -19,8 +19,8 @@ app.use(express.urlencoded({extended: true}))
 app.use(cookieParser())  
 
 // app.use(cors({origin: 'http://localhost:5173'}))
-app.use(cors({origin: 'https://tailwind-mastery.github.io'}))
-app.use(cors({origin: 'https://tailwind-mastery.github.io/TEVAReact'}))
+app.use(cors({origin: '*'}))
+// app.use(cors({origin: 'https://tailwind-mastery.github.io/TEVAReact'}))
 
 app.use('/api/user', userRoutes)
 app.use('/api/product', productRoutes)
