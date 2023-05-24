@@ -25,7 +25,7 @@ app.use(cors({origin: 'https://tailwind-mastery.github.io'}))
 app.use('/api/user', userRoutes)
 app.use('/api/product', productRoutes)
 app.use('/api/token', tokenRoutes)
-app.get('/', (req, res) => res.send('server is working'))
+app.get('/', (req, res) => res.send('TEVAExpress is LIVE !'))
 
 app.use(notFound)
 app.use(errorHandler)
